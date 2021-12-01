@@ -9,9 +9,9 @@ Once the unique IP addresses are extracted from the log file, we will use a comm
 Moreover, we will be running this script continuously through the use of a conditional statement and schdule the script to run every 30 seconds. 
 
 Steps:
-Create blank shell Script: 
+1. Create blank shell Script: 
  nano /home/kali/logging.
-Make Shell script executable
+2. Make Shell script executable
  chmod +x logging.sh
-Run the script
+3. Run the script
  ./logging.sh
