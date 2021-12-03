@@ -1,4 +1,3 @@
-                                                                     logging.sh                                                                                 
 #!/bin/bash
 
 clear
@@ -14,7 +13,7 @@ do
 
 sudo awk '{print $1}' $file | uniq #lists unique IP addresses for each request 
 
-curl "https://ip-api.com">>ip.txt #get info from IP API
+curl "https://ipapi.co/$ip/json/">>ip.txt #get info from IP API
 
 sleep 30 #schelduler to run script every 30 seconds
 
